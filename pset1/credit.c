@@ -76,18 +76,18 @@ int main(void)
         
          
         mod1 = x % 10; // Grab the last digit
-        x = x / 10; // remove the last digit
+        x = x / 10; // Remove the last digit
         sum1 = sum1 + mod1; // Here we are just adding the numbers
         printf("Your sum1 is: %i \n", sum1);
         
         mod2 = x % 10; //Grabing the next number which is the second last number of the card.
         x = x / 10; //Remove the last digit again
         
-        mod2 = mod2 * 2; // times teh number by 2
+        mod2 = mod2 * 2; // Times the number by 2
         
-        // Now we need to seperte any digits, because we have to add teh digits together, not teh whole number together
-        digit1 = mod2 / 10; // this will give the first digit
-        digit2 = mod2 % 10; //this will give the last digit
+        // Now we need to seperte any digits, because we have to add teh digits together, not the whole number together
+        digit1 = mod2 / 10; // This will give the first digit
+        digit2 = mod2 % 10; //This will give the last digit
         sum2 = sum2 + digit1 + digit2; 
         printf("Your sum2 is: %i \n", sum2);
         
