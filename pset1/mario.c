@@ -6,13 +6,10 @@ int main(void)
 {
      // Get height
      int n;
-     
+     do
      {
          n = get_int("Height:  ");
      }
-     
-     
-     // While the below is true carry out the loop
      while (n > 8 || 1 > n);
      
      // Print hash pattern height loop
